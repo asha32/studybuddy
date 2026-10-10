@@ -1,4 +1,5 @@
 import Notes from "./components/Notes";
+import Quiz from "./components/Quiz";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <div>
           <a href="#">Dashboard</a>
           <a href="#notes">My Notes</a>
-          <a href="#">Quiz</a>
+          <a href="#quiz">Quiz</a>
           <a href="#">Progress</a>
           <a href="#">Study Timer</a>
         </div>
@@ -47,6 +48,7 @@ function App() {
       </main>
 
       <Notes />
+      <Quiz/>
     </div>
   );
 }
