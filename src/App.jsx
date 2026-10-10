@@ -1,3 +1,5 @@
+import Notes from "./components/Notes";
+
 function App() {
   return (
     <div>
@@ -6,7 +8,7 @@ function App() {
 
         <div>
           <a href="#">Dashboard</a>
-          <a href="#">My Notes</a>
+          <a href="#notes">My Notes</a>
           <a href="#">Quiz</a>
           <a href="#">Progress</a>
           <a href="#">Study Timer</a>
@@ -43,6 +45,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <Notes />
     </div>
   );
 }
