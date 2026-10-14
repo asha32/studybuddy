@@ -1,6 +1,7 @@
 import Notes from "./components/Notes";
 import Quiz from "./components/Quiz";
 import Progress from "./components/Progress";
+import StudyTimer from "./components/StudyTimer";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <a href="#notes">My Notes</a>
           <a href="#quiz">Quiz</a>
           <a href="#progress">Progress</a>
-          <a href="#">Study Timer</a>
+          <a href="#study-timer">Study Timer</a>
         </div>
       </nav>
 
@@ -51,6 +52,7 @@ function App() {
       <Notes />
       <Quiz/>
       <Progress/>
+      <StudyTimer />
     </div>
   );
 }
