@@ -63,15 +63,36 @@ function Quiz() {
         }
 
     };
+
     const nextQuestion = () => {
         if (currentQuestion < questions.length - 1) {
             setCurrentQuestion(currentQuestion + 1);
             setSelectedAnswer(null);
         }
-        else {
+        // else {
+        //     setFinished(true);
+        // }
+
+        else{
+            const attempts = JSON.parse(
+                localStorage.getItem("quizAttempts") || "[]"
+            );
+
+            const newAttempt = {
+                score: score,
+                total: questions.length,
+                date: new Date().toLocaleDateString(),
+            };
+
+            localStorage.setItem(
+                "quizAttempts",
+                JSON.stringify([...attempts, newAttempt])
+            );
+
             setFinished(true);
         }
     };
+
     const restartQuiz = () => {
         setCurrentQuestion(0);
         setSelectedAnswer(null);
