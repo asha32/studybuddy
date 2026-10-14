@@ -1,16 +1,75 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚 Study Buddy
 
-Currently, two official plugins are available:
+**Your Smart Study & Quiz Companion**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Study Buddy is a React-based web application designed to help students organize study notes, practice quizzes, track their progress, and manage study time in one place.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📝 **My Notes** – Add, view, and delete study notes.
+- 🧠 **Practice Quiz** – Test your knowledge with interactive questions.
+- 📊 **My Progress** – Track quiz scores and study progress.
+- ⏱️ **Study Timer** – Manage study sessions with a timer.
+- 🔐 **Login & Signup UI** – Demo login and signup pages.
+- 💾 **Local Storage** – Save supported data in the browser.
+- 📱 **Responsive Interface** – A simple interface for studying.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Browser Local Storage
+- Git and GitHub
+
+## 🌐 Live Demo
+
+[Open Study Buddy](https://asha32.github.io/studybuddy/)
+
+## 💻 Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/asha32/studybuddy.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd studybuddy
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## 📌 Future Improvements
+
+- Implement secure user authentication.
+- Add cloud-based storage for notes and progress.
+- Expand the quiz question collection.
+- Improve the dashboard and mobile experience.
+
+## 👩‍💻 Author
+
+**AshaKA**
+
+- GitHub: [asha32](https://github.com/asha32)
+
+---
+
+*Built with React and a passion for learning.*
